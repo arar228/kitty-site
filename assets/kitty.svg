@@ -1,41 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
   <!-- soft ground shadow -->
-  <ellipse cx="180" cy="322" rx="86" ry="15" fill="#0A5C8A" opacity="0.12"/>
+  <ellipse cx="200" cy="366" rx="98" ry="15" fill="#0A5C8A" opacity="0.12"/>
 
-  <!-- blush cheeks (under the linework) -->
-  <ellipse cx="116" cy="186" rx="17" ry="9" fill="#FF9DB6" opacity="0.55"/>
-  <ellipse cx="244" cy="186" rx="17" ry="9" fill="#FF9DB6" opacity="0.55"/>
+  <g stroke="#0B0B0B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- body (behind head): chunky, two rounded feet + center notch -->
+    <path d="M138 266
+             C116 305 118 339 146 351
+             C156 358 174 356 180 344
+             C188 352 196 339 200 339
+             C204 339 212 352 220 344
+             C226 356 244 358 254 351
+             C282 339 284 305 262 266 Z" fill="#fff"/>
 
-  <g stroke="#0B0B0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-    <!-- ears -->
-    <path d="M118 96 L96 44 L150 78 Z" fill="#fff"/>
-    <path d="M242 96 L264 44 L210 78 Z" fill="#fff"/>
-    <!-- head -->
-    <path d="M180 70
-             C112 70 78 116 78 168
-             C78 222 120 252 180 252
-             C240 252 282 222 282 168
-             C282 116 248 70 180 70 Z" fill="#fff"/>
-    <!-- body -->
-    <path d="M120 236
-             C108 268 108 300 124 318
-             C140 332 156 322 160 308
-             C168 314 192 314 200 308
-             C204 322 220 332 236 318
-             C252 300 252 268 240 236 Z" fill="#fff"/>
-    <!-- feet -->
-    <path d="M150 320 q14 12 30 0" fill="none"/>
-    <!-- eyes (relaxed, happy) -->
-    <path d="M124 156 q23 11 46 0" fill="none"/>
-    <path d="M190 156 q23 11 46 0" fill="none"/>
+    <!-- head with ears (shallow dome between, ears spaced apart) -->
+    <path d="M165 116
+             L122 70
+             L110 130
+             C80 148 70 176 72 204
+             C74 252 130 288 200 288
+             C270 288 326 252 328 204
+             C330 176 320 148 290 130
+             L278 70
+             L235 116
+             C216 124 184 124 165 116 Z" fill="#fff"/>
+
+    <!-- eyes (calm, content) -->
+    <path d="M132 186 q22 10 44 0" fill="none"/>
+    <path d="M224 186 q22 10 44 0" fill="none"/>
+
     <!-- mouth ω -->
-    <path d="M168 186 q12 17 24 0" fill="none"/>
-    <path d="M168 186 q-10 13 -20 4" fill="none"/>
-    <path d="M192 186 q10 13 20 4" fill="none"/>
-    <!-- whiskers -->
-    <path d="M72 166 q-22 -2 -42 -11" fill="none"/>
-    <path d="M72 184 q-22 4 -42 5" fill="none"/>
-    <path d="M288 166 q22 -2 42 -11" fill="none"/>
-    <path d="M288 184 q22 4 42 5" fill="none"/>
+    <path d="M183 216 q8.5 13 17 0 q8.5 13 17 0" fill="none"/>
+
+    <!-- whiskers (3 each side) -->
+    <path d="M82 192 q-26 -3 -50 -11" fill="none"/>
+    <path d="M82 208 q-27 0 -51 2"   fill="none"/>
+    <path d="M82 224 q-26 4 -49 12"  fill="none"/>
+    <path d="M318 192 q26 -3 50 -11" fill="none"/>
+    <path d="M318 208 q27 0 51 2"    fill="none"/>
+    <path d="M318 224 q26 4 49 12"   fill="none"/>
   </g>
 </svg>

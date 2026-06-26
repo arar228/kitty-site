@@ -1,5 +1,7 @@
 # $KITTY — landing page
 
+🌐 **Live site:** https://kitty-site.up.railway.app
+
 Static site (HTML + CSS + JS). No build step. Just open `index.html` or upload the folder to any host.
 
 ## Files

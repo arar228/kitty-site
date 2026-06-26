@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="dg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CFF2FF"/>
+      <stop offset="0.5" stop-color="#34C0FF"/>
+      <stop offset="1" stop-color="#0098EA"/>
+    </linearGradient>
+  </defs>
+  <g stroke="#0B0B0B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <!-- pavilion -->
+    <path d="M14 50 L106 50 L60 112 Z" fill="url(#dg)"/>
+    <!-- crown -->
+    <path d="M32 26 L88 26 L106 50 L14 50 Z" fill="#9FE2FB"/>
+    <!-- facets -->
+    <path d="M32 26 L46 50 L14 50 Z" fill="#CFF2FF"/>
+    <path d="M88 26 L74 50 L106 50 Z" fill="#7FD6F7"/>
+    <path d="M46 50 L60 112 L14 50 Z" fill="#34C0FF"/>
+    <path d="M74 50 L60 112 L106 50 Z" fill="#0EA7F0"/>
+    <path d="M46 50 L74 50 L60 112 Z" fill="#5ECCFB"/>
+    <!-- inner lines -->
+    <path d="M32 26 L46 50 M88 26 L74 50 M46 50 L74 50" fill="none"/>
+  </g>
+  <path d="M38 33 L52 33" stroke="#fff" stroke-width="3.5" stroke-linecap="round" opacity="0.85"/>
+</svg>

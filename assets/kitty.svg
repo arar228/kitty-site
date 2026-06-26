@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" fill="none">
+  <!-- soft ground shadow -->
+  <ellipse cx="180" cy="322" rx="86" ry="15" fill="#0A5C8A" opacity="0.12"/>
+
+  <!-- blush cheeks (under the linework) -->
+  <ellipse cx="116" cy="186" rx="17" ry="9" fill="#FF9DB6" opacity="0.55"/>
+  <ellipse cx="244" cy="186" rx="17" ry="9" fill="#FF9DB6" opacity="0.55"/>
+
+  <g stroke="#0B0B0B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ears -->
+    <path d="M118 96 L96 44 L150 78 Z" fill="#fff"/>
+    <path d="M242 96 L264 44 L210 78 Z" fill="#fff"/>
+    <!-- head -->
+    <path d="M180 70
+             C112 70 78 116 78 168
+             C78 222 120 252 180 252
+             C240 252 282 222 282 168
+             C282 116 248 70 180 70 Z" fill="#fff"/>
+    <!-- body -->
+    <path d="M120 236
+             C108 268 108 300 124 318
+             C140 332 156 322 160 308
+             C168 314 192 314 200 308
+             C204 322 220 332 236 318
+             C252 300 252 268 240 236 Z" fill="#fff"/>
+    <!-- feet -->
+    <path d="M150 320 q14 12 30 0" fill="none"/>
+    <!-- eyes (relaxed, happy) -->
+    <path d="M124 156 q23 11 46 0" fill="none"/>
+    <path d="M190 156 q23 11 46 0" fill="none"/>
+    <!-- mouth ω -->
+    <path d="M168 186 q12 17 24 0" fill="none"/>
+    <path d="M168 186 q-10 13 -20 4" fill="none"/>
+    <path d="M192 186 q10 13 20 4" fill="none"/>
+    <!-- whiskers -->
+    <path d="M72 166 q-22 -2 -42 -11" fill="none"/>
+    <path d="M72 184 q-22 4 -42 5" fill="none"/>
+    <path d="M288 166 q22 -2 42 -11" fill="none"/>
+    <path d="M288 184 q22 4 42 5" fill="none"/>
+  </g>
+</svg>

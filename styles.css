@@ -121,6 +121,10 @@ h1,h2,h3,.brand__name{font-family:'Fredoka',sans-serif;line-height:1.05}
 }
 .hero__stats b{font-family:'Fredoka';font-size:1.5rem;color:var(--blue);line-height:1.1}
 .hero__stats span{font-size:.8rem;color:var(--muted);font-weight:500}
+.hero__stats .stat--link{border-color:var(--blue);background:rgba(0,152,234,.06);transition:transform .15s,box-shadow .2s}
+.hero__stats .stat--link:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.hero__stats .stat--link a{display:flex;flex-direction:column}
+.hero__stats .stat--link b{font-size:1.2rem}
 
 /* contract chip */
 .ca{
